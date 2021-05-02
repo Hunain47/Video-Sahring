@@ -1,0 +1,197 @@
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #3456B5;
+  }
+  
+  li {
+    float: left;
+    /* border-right:1px solid #bbb; */
+  }
+  
+  /* li:last-child {
+    border-left:1px solid #bbb ;
+  } */
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+   li a:hover {
+    background-color: blue;
+  }
+  /* .menu:hover{
+      background-color:none;
+  } */
+  
+  /*.active {
+    background-color: #4CAF50;
+  } */
+  .liCheck{
+      /* border-left:1px solid #8484846e; */
+      margin: 18px 5px;
+      width: 81%;
+      margin-right: 15px;
+      height: 24px;
+      font-weight: bold;
+      color: white;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+      transition: .3s;
+      outline-style:none;
+    
+  }
+  .liCheck:hover{
+      background-color:#345ed0;
+      font-size:19px;
+      border-radius:3px;
+  }
+  .liCheckk{
+      border-left:1px solid #8484846e;
+  }
+  #search_keyword_top{
+      
+      transition: color .3s;
+      font-weight: 700;
+      color:white;
+      padding-left: 65px;
+      border-radius: 100px;
+      background: #5677CB;
+      border:none;
+      position: absolute;
+      /* z-index: 1; */
+      top: 2px;
+      left: 50%;
+      width: 502px;
+      height: 36px;
+      margin: 15px 0 0 -310px;
+      
+      /* overflow: hidden; */
+    
+  }
+  ::placeholder {
+      margin-left:3px;
+    color:#B7C3E5;
+    opacity: 1; /* Firefox */
+  }
+  .menu{
+    top: 10px;
+    width: 23px;
+    height: 27px;
+    position: absolute;
+    margin-left: 8px;
+    filter: invert(100%);
+    filter: brightness(19.5);
+     
+   
+  }
+  .mennu:hover{
+      background-color: #3456B5;
+  }
+  .mennuu{
+      border-right: 1px solid #8484846e;
+      margin-left: -27px;
+      padding: 9px 22px;
+  }
+  input[type="text"]:focus {
+     width: 200px;
+     outline: none;
+  
+  }
+  
+  .login_form{
+    border: 2px solid white;
+      width: 349px;
+      height: 305px;
+      float: right;
+      margin-left: 62%;
+      margin-right: 3px;
+      margin-top: 2px;
+      color: white;
+      border-radius: 7px;
+      padding: 22px 14px;
+      font-size: 19px;
+      background-color: #324271;
+      display:none;
+  
+  }
+  .login-btn{
+    margin-left: 2px;
+      /* padding: 0px 0px; */
+      width: 313px;
+      margin-right: -29px;
+      background-color:#1f8be894;
+  }
+  
+  .sign-up{
+      margin-left: -18px;
+      /* padding: 0px 0px; */
+      width: 87px;
+      margin-right: -29px;
+      color:white;
+      background: none;
+      border: none;
+      text-decoration: underline;
+      outline-style:none;
+  }
+  .sign-up:hover{
+    background:none;
+    color:#cec7c7;
+    text-decoration: underline;
+  }
+  
+  #login-button-Close{
+    margin-left: 104px;
+      margin-top: 8px;
+      /* padding: 0px 0px; */
+      width: 116px;
+      margin-right: -52px;
+      background-color:#ff0000ba;
+  }
+  .signup-form{
+      border: 2px solid white;
+      width: 400px;
+      height: 490px;
+      float: none;
+      margin-left: 70%;
+      margin-right: 10px;
+      margin-top: 140px;
+      color: white;
+      border-radius: 7px;
+      padding: 12px 14px;
+      background-color:  #324271;
+      position: absolute;
+      top: -80px;
+      display:none;
+  }
+  .signup-button{
+    margin-left: 12px;
+      /* padding: 0px 0px; */
+      width: 338px;
+      margin-right: -29px;
+      height: 39px;
+      background-color: #1f8be894;
+  }
+  .close-sign-up{
+    margin-left: 93px;
+      margin-top: 8px;
+      /* padding: 0px 0px; */
+      width: 177px;
+      margin-right: -52px;
+      background-color: #ff0000ba;
+  }
+  .close-sign-up:hover{
+    background-color:#ff0000ba;
+  }
+  
+  
